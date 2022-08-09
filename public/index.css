@@ -7,15 +7,12 @@ body {
     display: flex;
     background-color: e7ebee;
     padding: 2px 0;
-    overflow: auto;
     width: 342px;
+	font-size:13px;
+	font-weight:400;
 
 }
-/* .onlinefriendbox span img{
-    
-    width: 3px;
-    height: 3px;
-} */
+
 .onlinefrienddimg{
     width: 47px;
     border-radius: 50%;
@@ -34,23 +31,25 @@ body {
 	left:50%;
 	margin-left:-155px;
 }
-/* #friendslist{ */
-   
+
     #chatbox::-webkit-scrollbar {
         width: 10px;
       }
-      
-      /* Track */
+      .onlinename{
+			padding-left: 19px;
+			padding-bottom: -5px;
+	  }
+    
       #chatbox::-webkit-scrollbar-track {
         background: #f1f1f1;
       }
       
-      /* Handle */
+    
       #chatbox::-webkit-scrollbar-thumb {
         background: rgb(95, 16, 16);
       }
       
-      /* Handle on hover */
+     
       #chatbox::-webkit-scrollbar-thumb:hover {
         background: rgb(105, 33, 33);
       }
@@ -59,17 +58,17 @@ body {
         width: 10px;
       }
       
-      /* Track */
+    
       #onlinefriendbox::-webkit-scrollbar-track {
         background: #f1f1f1;
       }
       
-      /* Handle */
+   
       #onlinefriendbox::-webkit-scrollbar-thumb {
         background: rgb(95, 16, 16);
       }
       
-      /* Handle on hover */
+      
       #onlinefriendbox::-webkit-scrollbar-thumb:hover {
         background: rgb(105, 33, 33);
       }
@@ -137,13 +136,13 @@ body {
 
 #search{
 	background:#e3e9ed url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/245657/search.png") -11px 0 no-repeat;
-	height:60px;
+	height:47px;
 	width:350px;
 	
 }
 #searchfield{
 	background:#e3e9ed;
-	margin:21px 0 0 55px;
+	margin:15px 0 0 55px;
 	border:none;
 	padding:0;
 	font-size:14px;
